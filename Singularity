@@ -4,7 +4,7 @@ From: tensorflow/tensorflow:latest-gpu-py3
 
 ################# Section: Defining the system #################################
 # Commands in the %post section are executed within the container.
-% post
+%post
         echo "Installing Tools with apt-get"
         apt-get update
         apt-get install -y cmake libcupti-dev libyaml-dev wget unzip
